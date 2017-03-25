@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<b class="alert-success";>Contato: <i>${param.nome}</i> adicionado com sucesso!</b>
+<b>Contato: <i>${param.nome}</i> adicionado com sucesso!</b>
 
 </body>
 </html>
