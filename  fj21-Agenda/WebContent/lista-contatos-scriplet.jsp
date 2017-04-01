@@ -29,5 +29,18 @@ for (Contato contato : contatos){
 
 </table>
 
+<!-- codigo omitido -->
+<c:forEach var="contato" items="${da.lista}">
+<tr>
+<!-- codigo omitido -->
+<td>
+<a href="mvc?logica=RemoveContatoLogic&id=${contato.id}">Remover</a>
+</td>
+</tr>
+</c:forEach>
 </body>
 </html>
+
+
+
+
